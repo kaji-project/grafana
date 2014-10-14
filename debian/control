@@ -1,0 +1,17 @@
+Source: grafana
+Maintainer: Thibault Cohen <thibault.cohen@savoirfairelinux.com>
+Section: net
+Priority: extra
+Vcs-Git: git://github.com/grafana/grafana.git
+Vcs-Browser: https://github.com/grafana/grafana.git
+Standards-Version: 3.9.5
+XS-Python-Version: >= 2.5, << 3.0
+Build-Depends: python, debhelper (>= 9), quilt, python-setuptools, po-debconf
+Homepage: http://www.shinken-monitoring.org
+
+Package: grafana
+Architecture: any
+Depends: ${misc:Depends},
+Description: A Graphite & InfluxDB Dashboard and Graph Editor
+ Grafana is An open source, feature rich metrics dashboard and
+ graph editor for Graphite, InfluxDB & OpenTSDB.
