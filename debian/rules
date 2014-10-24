@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	#lessc -x --include-path=src/vendor/bootstrap/less src/css/less/bootstrap.light.less > src/css/grafana.light.min.css
+	#lessc -x --include-path=src/vendor/bootstrap/less src/css/less/bootstrap.dark.less > src/css/grafana.dark.min.css
