@@ -1,2 +1,15 @@
-src/* usr/share/grafana/
-sample/grafana.conf etc/apache2/sites-available/
+app usr/share/grafana/
+build.txt usr/share/grafana/
+config.sample.js usr/share/grafana/
+config.js usr/share/grafana/
+css usr/share/grafana/
+font usr/share/grafana/
+img usr/share/grafana/
+index.html usr/share/grafana/
+LICENSE.md usr/share/grafana/
+NOTICE.md usr/share/grafana/
+plugins usr/share/grafana/
+README.md usr/share/grafana/
+test usr/share/grafana/
+vendor usr/share/grafana/
+grafana.conf etc/apache2/sites-available/

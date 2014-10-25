@@ -1,6 +1,6 @@
-Index: grafana/sample/grafana.conf
+Index: grafana/grafana.conf
 ===================================================================
 --- /dev/null
-+++ grafana/sample/grafana.conf
++++ grafana/grafana.conf
 @@ -0,0 +1 @@
 +Alias /grafana /usr/share/grafana
