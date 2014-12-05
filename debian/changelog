@@ -1,3 +1,9 @@
+grafana (1.9.0-1kaji0.2) unstable; urgency=medium
+
+  * Kaji release
+
+ -- Thibault Cohen <thibault.cohen@savoirfairelinux.com>  Fri, 05 Dec 2014 13:16:14 -0500
+
 grafana (1.8.1-1kaji0.2) unstable; urgency=low
 
   * Kaji release
