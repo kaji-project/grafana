@@ -32,20 +32,20 @@ rm -rf %{buildroot}/*
 
 
 install -d %{buildroot}/usr/share/grafana/
-install -dpm0755 app %{buildroot}/usr/share/grafana/ 
+cp -r app %{buildroot}/usr/share/grafana/ 
 install -pm0755 build.txt %{buildroot}/usr/share/grafana/ 
 install -pm0755 config.sample.js %{buildroot}/usr/share/grafana/ 
 install -pm0755 config.js %{buildroot}/usr/share/grafana/ 
-install -dpm0755 css %{buildroot}/usr/share/grafana/ 
-install -dpm0755 font %{buildroot}/usr/share/grafana/ 
-install -dpm0755 img %{buildroot}/usr/share/grafana/ 
+cp -r css %{buildroot}/usr/share/grafana/ 
+cp -r font %{buildroot}/usr/share/grafana/ 
+cp -r img %{buildroot}/usr/share/grafana/ 
 install -pm0755 index.html %{buildroot}/usr/share/grafana/ 
 install -pm0755 LICENSE.md %{buildroot}/usr/share/grafana/ 
 install -pm0755 NOTICE.md %{buildroot}/usr/share/grafana/ 
-install -dpm0755 plugins %{buildroot}/usr/share/grafana/ 
+cp -r plugins %{buildroot}/usr/share/grafana/ 
 install -pm0755 README.md %{buildroot}/usr/share/grafana/ 
-install -dpm0755 test %{buildroot}/usr/share/grafana/ 
-install -dpm0755 vendor %{buildroot}/usr/share/grafana/ 
+cp -r test %{buildroot}/usr/share/grafana/ 
+cp -r vendor %{buildroot}/usr/share/grafana/ 
 
 
 install -d %{buildroot}/%{_sysconfdir}/httpd/conf.d
