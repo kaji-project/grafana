@@ -54,11 +54,11 @@ install -dpm0755 vendor %{buildroot}/usr/share/grafana/
 
 
 install -d %{buildroot}/%{_sysconfdir}/httpd/conf.d
-install -pm0755 grafana.conf %{buildroot}/%{_sysconfdir}/httpd/conf.d/nagvis.conf
+install -pm0755 grafana.conf %{buildroot}/%{_sysconfdir}/httpd/conf.d/grafana.conf
 
 %files
 /usr/share/grafana/
-%config(noreplace) %{_sysconfdir}/httpd/conf.d/nagvis.conf
+%config(noreplace) %{_sysconfdir}/httpd/conf.d/grafana.conf
 
 
 %changelog
