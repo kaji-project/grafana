@@ -1,0 +1,4 @@
+distro:
+  - centos_6
+spec: grafana.spec
+debian: debian
