@@ -3,3 +3,7 @@
 
 %:
 	dh $@
+
+override_dh_install:
+	dh_install
+	mv debian/grafana-admin/usr/share/grafana-admin/config_admin.js debian/grafana-admin/usr/share/grafana-admin/config.js

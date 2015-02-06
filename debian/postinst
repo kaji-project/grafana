@@ -1,2 +1,0 @@
-a2ensite grafana
-service apache2 reload || echo "Failed to reload apache. You have to reload apache to update its configuration"

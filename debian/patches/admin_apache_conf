@@ -1,0 +1,4 @@
+--- /dev/null
++++ b/grafana-admin.conf
+@@ -0,0 +1 @@
++Alias /grafana-admin /usr/share/grafana-admin

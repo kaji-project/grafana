@@ -16,3 +16,12 @@ Depends: ${misc:Depends},
 Description: Graphite & InfluxDB Dashboard and Graph Editor
  Grafana is An open source, feature rich metrics dashboard and
  graph editor for Graphite, InfluxDB & OpenTSDB.
+ This package install Grafana with a read-only user to InfluxDB
+
+Package: grafana-admin
+Architecture: all
+Depends: ${misc:Depends},
+Description: Graphite & InfluxDB Dashboard and Graph Editor
+ Grafana is An open source, feature rich metrics dashboard and
+ graph editor for Graphite, InfluxDB & OpenTSDB.
+ This package install Grafana with a read/write user to InfluxDB

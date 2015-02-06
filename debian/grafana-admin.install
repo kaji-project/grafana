@@ -1,0 +1,2 @@
+config_admin.js usr/share/grafana-admin
+grafana-admin.conf etc/apache2/sites-available/

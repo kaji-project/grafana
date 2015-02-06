@@ -1,0 +1,14 @@
+usr/share/grafana/app usr/share/grafana-admin/app
+usr/share/grafana/build.txt usr/share/grafana-admin/build.txt
+usr/share/grafana/config.sample.js usr/share/grafana-admin/config.sample.js 
+usr/share/grafana/css usr/share/grafana-admin/css
+usr/share/grafana/font usr/share/grafana-admin/font
+usr/share/grafana/img usr/share/grafana-admin/img
+usr/share/grafana/index.html usr/share/grafana-admin/index.html
+usr/share/grafana/LICENSE.md usr/share/grafana-admin/LICENSE.md
+usr/share/grafana/NOTICE.md usr/share/grafana-admin/NOTICE.md
+usr/share/grafana/plugins usr/share/grafana-admin/plugins
+usr/share/grafana/README.md usr/share/grafana-admin/README.md
+usr/share/grafana/test usr/share/grafana-admin/test
+usr/share/grafana/vendor usr/share/grafana-admin/vendor
+usr/share/grafana-admin/config.js etc/grafana/config-admin.js
