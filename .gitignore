@@ -1,0 +1,12 @@
+*.pyc
+*.swp
+.project
+.pydevproject
+.settings
+pagekite*
+.idea
+MANIFEST
+dist
+adagios.conf
+*.mo
+.pc
