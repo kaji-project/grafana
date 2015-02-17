@@ -12,7 +12,7 @@ Homepage: http://www.shinken-monitoring.org
 
 Package: grafana
 Architecture: all
-Depends: ${misc:Depends},
+Depends: ${misc:Depends}, apache2
 Description: Graphite & InfluxDB Dashboard and Graph Editor
  Grafana is An open source, feature rich metrics dashboard and
  graph editor for Graphite, InfluxDB & OpenTSDB.
@@ -20,7 +20,7 @@ Description: Graphite & InfluxDB Dashboard and Graph Editor
 
 Package: grafana-admin
 Architecture: all
-Depends: ${misc:Depends},
+Depends: ${misc:Depends}, apache2
 Description: Graphite & InfluxDB Dashboard and Graph Editor
  Grafana is An open source, feature rich metrics dashboard and
  graph editor for Graphite, InfluxDB & OpenTSDB.

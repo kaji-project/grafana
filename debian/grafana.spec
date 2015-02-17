@@ -8,6 +8,7 @@ License:	AGPLv3+
 URL:		https://github.com/kaji-project/grafana
 Source0:	%{name}_%{version}.orig.tar.gz
 BuildArch:  noarch
+Requires:  httpd
 
 
 %description
@@ -20,6 +21,7 @@ his package install Grafana with a read-only user to InfluxDB
 %package admin
 Summary:   Graphite & InfluxDB Dashboard and Graph Editor (Admin)
 Group:     Network
+Requires:  httpd
 
 %description admin
 Graphite & InfluxDB Dashboard and Graph Editor
