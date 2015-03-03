@@ -50,7 +50,6 @@ install -d %{buildroot}/%{_sysconfdir}/grafana/
 cp -r app %{buildroot}/usr/share/grafana/ 
 install -pm0755 build.txt %{buildroot}/usr/share/grafana/ 
 install -pm0755 config.sample.js %{buildroot}/usr/share/grafana/ 
-ls
 install -pm0755 config.js %{buildroot}/usr/share/grafana/ 
 cp -r css %{buildroot}/usr/share/grafana/ 
 cp -r font %{buildroot}/usr/share/grafana/ 
