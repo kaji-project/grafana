@@ -1,10 +1,15 @@
 centos_6:
     spec: debian/grafana.spec
+    type: docker
 centos_7:
     spec: debian/grafana.spec
+    type: docker
 debian_8:
     debian: debian
+    type: docker
 ubuntu_12.04:
     debian: debian
+    type: docker
 ubuntu_14.04:
     debian: debian
+    type: docker
